@@ -68,5 +68,7 @@ puts "A group of flamingos is called a " + answer
 
 But personally, we think the first way looks nicer and is easier for your fellow programmers to read.
 
-## Directions
+## Instructions
+
+Start with `global_substitution.rb` in lib/, and run the file in the console to test your work (run `ruby lib/global_substitution.rb` in the console). Then, see if the RSpec tests pass (run `rspec` in the console). Then try your hand at `string_interpolation.rb`!
 
