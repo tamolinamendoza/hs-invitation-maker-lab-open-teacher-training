@@ -5,9 +5,7 @@
 
 # Invitation Maker
 
-You're graduating from high school! Congrats. It's time to send out invitations for your party.
-
-Last year when your brother graduated, he had to individually write his invitations before emailing them out. But you're a coder and you can automate this so you have more time to do other things, like hanging with your friends and researching the coolest digs for your dorm room.
+Ron Weasley's graduating Hogwarts! He's got Percy Weasley's graduation invitations from a few years ago, which Percy individually wrote out before sending them via owl post. But Percy didn't use the magic of programming to automate this task. Help Ron get these invitations printed quickly so he can spend more time playing Quidditch and pranking Percy for being such a dork.
 
 How can you automate this task? Through string interpolation! String interpolation, broadly speaking, is the process of taking a string (which is a word, sentence, or letter; basically anything you put between quotations), and swapping out one word for another. 
 
