@@ -35,7 +35,7 @@ What if you have a sentence that you want to substitute more than one word in? W
 
 ```ruby
 wrong_fact = "Cats fail to recover about 50 percent of the nuts they bury."
-true_fact = wrong_fact.gsub("Cats", "Squirrels").gsub("50", "74")
+right_fact = wrong_fact.gsub("Cats", "Squirrels").gsub("50", "74")
 
 ```
 Give these a try in IRB!
@@ -72,5 +72,5 @@ But personally, we think the first way looks nicer and is easier for your fellow
 
 ## Instructions
 
-Start with `global_substitution.rb` in lib/, and run the file in the console to test your work (run `ruby lib/global_substitution.rb` in the console). Then, see if the RSpec tests pass (run `rspec` in the console). Then try your hand at `string_interpolation.rb`!
+Start with `global_substitution.rb` in `lib/`, and run the file in the console to test your work (run `ruby lib/global_substitution.rb` in the console). Then, see if the RSpec tests pass (run `rspec` in the console). Then try your hand at `string_interpolation.rb`!
 
