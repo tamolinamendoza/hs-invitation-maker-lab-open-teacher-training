@@ -4,6 +4,6 @@ percy_invitation = "The family of Percy Weasley proudly invite you to their grad
 
 ron_invitation = percy_invitation.gsub("Percy", "Ron").gsub("Saturday", "Sunday").gsub("22nd", "18th").gsub("1993", "1997")
 
-# here we're calling puts on our variable so it will print in the console when we run our code!
+# Here we're calling puts on our variable so it will print in the console when we run our code!
 
 puts ron_invitation
