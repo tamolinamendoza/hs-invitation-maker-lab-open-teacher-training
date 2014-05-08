@@ -59,6 +59,8 @@ answer = "Flamboyance"
 puts "A group of flamingos is called a #{answer}."
 ```
 
+Note that here we're declaring the variable `answer` before we call `puts`. We need to do it in this order, because our program is read by the computer sequentially. When our computer gets to `#{answer}`, it won't know what that is if answer isn't known yet.
+
 Some Rubyists write this another way, like this:
 
 ```ruby
