@@ -11,6 +11,8 @@ How can you automate this task? Through string interpolation! String interpolati
 
 There are the few ways we can do this, which we'll talk about below.
 
+## Learning:
+
 ### .gsub
 
 The `.gsub` method is a handy ruby tool that allows you to `globally substitute` one or more words, or letter for another. Let's take a look at how that works.
@@ -70,7 +72,7 @@ puts "A group of flamingos is called a " + answer
 
 But personally, we think the first way looks nicer and is easier for your fellow programmers to read.
 
-## Instructions
+## Challenge:
 
 Start with `global_substitution.rb` in lib/, and run the file in the console to test your work (run `ruby lib/global_substitution.rb` in the console). Then, see if the RSpec tests pass (run `rspec` in the console). Then try your hand at `string_interpolation.rb`!
 
