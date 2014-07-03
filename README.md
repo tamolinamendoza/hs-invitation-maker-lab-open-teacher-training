@@ -11,6 +11,15 @@ How can you automate this task? Through string interpolation! String interpolati
 
 There are the few ways we can do this, which we'll talk about below.
 
+##What is that spec directory? 
+
+Rspec is a testing framework that allows us to be sure our code is working exactly as we expect it to. TDD, or Test Driven Development, is a pretty industry wide accepted and embraced practice for writing code. You write tests first and then write code that makes the test pass. TDD basicaly gaurantees nothing unexpected in your code will break when you make changes. 
+
+If this is your first time doing a lab with a spec directory, in terminal you will need to enter `gem install rspec`. This command will download rspec on your computer. 
+
+We don't need to worry about the `.rspec` file, but we do care about the contents of the `spec` directory, and in particular the `string_spec.rb` file. That file is going to test how are code behaves. You don't need to worry about writing your own tests, just reading them and understanding how they work. We'll go more in depth with reading tests in later labs.
+
+
 ## Learning:
 
 ### .gsub
