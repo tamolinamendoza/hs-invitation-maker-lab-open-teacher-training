@@ -11,15 +11,6 @@ How can you automate this task? Through string interpolation! String interpolati
 
 There are the few ways we can do this, which we'll talk about below.
 
-##What is that spec directory? 
-
-Rspec is a testing framework that allows us to be sure our code is working exactly as we expect it to. TDD, or Test Driven Development, is a pretty industry wide accepted and embraced practice for writing code. You write tests first and then write code that makes the test pass. TDD basicaly gaurantees nothing unexpected in your code will break when you make changes. 
-
-If this is your first time doing a lab with a spec directory, in terminal you will need to enter `gem install rspec`. This command will download rspec on your computer. 
-
-We don't need to worry about the `.rspec` file, but we do care about the contents of the `spec` directory, and in particular the `string_spec.rb` file. That file is going to test how are code behaves. You don't need to worry about writing your own tests, just reading them and understanding how they work. We'll go more in depth with reading tests in later labs.
-
-
 ## Learning:
 
 ### .gsub
@@ -49,7 +40,6 @@ wrong_fact = "Cats fail to recover about 50 percent of the nuts they bury."
 true_fact = wrong_fact.gsub("Cats", "Squirrels").gsub("50", "74")
 
 ```
-Give these a try in IRB!
 
 ### String Interpolation
 
@@ -63,12 +53,6 @@ Then you make `answer` a variable, and assign it to the answer:
 
 `answer = "Flamboyance"`
 
-Try this out in IRB:
-
-```ruby
-answer = "Flamboyance"
-puts "A group of flamingos is called a #{answer}."
-```
 
 Note that here we're declaring the variable `answer` before we call `puts`. We need to do it in this order, because our program is read by the computer sequentially. When our computer gets to `#{answer}`, it won't know what that is if answer isn't known yet.
 
@@ -81,7 +65,31 @@ puts "A group of flamingos is called a " + answer
 
 But personally, we think the first way looks nicer and is easier for your fellow programmers to read.
 
-## Challenge:
+### Challenge 1 (using gsub):
+You're going to need to create a new ruby file to code your solution. In terminal, type `touch invitation.rb`.
 
-Start with `global_substitution.rb` in lib/, and run the file in the console to test your work (run `ruby lib/global_substitution.rb` in the console). Then, see if the RSpec tests pass (run `rspec` in the console). Then try your hand at `string_interpolation.rb`!
+You'll need to copy the variable definition below, which is the original invitation that Percy used for his graduation, and paste it into invitation.rb. 
+
+```RUBY
+percy_invitation = "The family of Percy Weasley proudly invite you to their graduation commencement on Saturday the 22nd of May 1993. Festivities will be held at The Burrow. See you then!"
+```
+Ron plans to have his party on May 18th, 1997 (Sunday). In invitation.r write some chained .gsubs to make his invitation!
+
+### Challenge 2 (using string interpolation):
+It's 1998 and it's time for Ginny's graduation. Ron wants to help his little sis out. Instead of using .gsub, let's use string interpolation to change the content of the invitation. Let's create a file for Ginny's invitation. In terminal, type `touch ginny_invitation.rb`. You'll code your solution in that file.
+
+You'll need to copy the Percy's invitation into ginny_invitation.rb again.
+```RUBY
+invitation = "The family of Percy Weasley proudly invite you to their graduation commencement on Saturday the 22nd of May 1993. Festivities will be held at The Burrow. See you then!"
+```
+
+Now that you know what string interpolation is, set the follow content from Percy's invitation into variables in ginny_invitation.rb:
+1) name, 'Percy'
+2) the day 'Saturday'
+3) the '22nd'
+4) the year '1993' 
+
+Now that we have Percy's information, it's time to change the value of these variables to reflect Ginny's info. Ginny plans to have her party on May 17th, 1998 (Sunday).
+
+Use string interpoloation and the variables you just created to change Percy's invitation to be used for Ginny.
 
