@@ -73,17 +73,17 @@ You'll need to copy the variable definition below, which is the original invitat
 ```RUBY
 percy_invitation = "The family of Percy Weasley proudly invite you to their graduation commencement on Saturday the 22nd of May 1993. Festivities will be held at The Burrow. See you then!"
 ```
-Ron plans to have his party on May 18th, 1997 (Sunday). In invitation.r write some chained .gsubs to make his invitation!
+Ron plans to have his party on May 18th, 1997 (Sunday). In invitation.rb write some chained gsubs to make his invitation! You'll want to remember to use puts to outprint your solution to the screen.
 
 ### Challenge 2 (using string interpolation):
-It's 1998 and it's time for Ginny's graduation. Ron wants to help his little sis out. Instead of using .gsub, let's use string interpolation to change the content of the invitation. Let's create a file for Ginny's invitation. In terminal, type `touch ginny_invitation.rb`. You'll code your solution in that file.
+It's 1998 and time for Ginny's graduation. Ron wants to help his little sis out. Instead of using .gsub, let's use string interpolation to change the content of the invitation. Let's create a file for Ginny's invitation. In terminal, type `touch ginny_invitation.rb`. You'll code your solution in that file.
 
 You'll need to copy the Percy's invitation into ginny_invitation.rb again.
 ```RUBY
 invitation = "The family of Percy Weasley proudly invite you to their graduation commencement on Saturday the 22nd of May 1993. Festivities will be held at The Burrow. See you then!"
 ```
 
-Now that you know what string interpolation is, set the follow content from Percy's invitation into variables in ginny_invitation.rb:
+Now that you know what string interpolation is, set the following content from Percy's invitation into variables in ginny_invitation.rb:
 1) name, 'Percy'
 2) the day 'Saturday'
 3) the '22nd'
@@ -91,5 +91,5 @@ Now that you know what string interpolation is, set the follow content from Perc
 
 Now that we have Percy's information, it's time to change the value of these variables to reflect Ginny's info. Ginny plans to have her party on May 17th, 1998 (Sunday).
 
-Use string interpoloation and the variables you just created to change Percy's invitation to be used for Ginny.
+Use string interpoloation and the variables you just created to change Percy's invitation to be used for Ginny. Like in Challenge 1, you'll want to use puts to print out your solution to the screen.
 
