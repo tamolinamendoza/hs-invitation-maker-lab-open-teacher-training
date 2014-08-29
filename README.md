@@ -1,6 +1,7 @@
 ---
- tags: ruby, strings, gsub, kids
+ tags: ruby, strings, gsub, interpolation, kids
  languages: ruby
+ level: beginner
 ---
 
 # Invitation Maker
