@@ -72,7 +72,7 @@ You're going to need to create a new ruby file to code your solution. In termina
 
 You'll need to copy the variable definition below, which is the original invitation that Percy used for his graduation, and paste it into invitation.rb. 
 
-```RUBY
+```ruby
 percy_invitation = "The family of Percy Weasley proudly invite you to their graduation commencement on Saturday the 22nd of May 1993. Festivities will be held at The Burrow. See you then!"
 ```
 Ron plans to have his party on May 18th, 1997 (Sunday). In invitation.rb write some chained gsubs to make his invitation! You'll want to remember to use puts to outprint your solution to the screen.
@@ -81,7 +81,7 @@ Ron plans to have his party on May 18th, 1997 (Sunday). In invitation.rb write s
 It's 1998 and time for Ginny's graduation. Ron wants to help his little sis out. Instead of using .gsub, let's use string interpolation to change the content of the invitation. Let's create a file for Ginny's invitation. In terminal, type `touch ginny_invitation.rb`. You'll code your solution in that file.
 
 You'll need to copy the Percy's invitation into ginny_invitation.rb again.
-```RUBY
+```ruby
 invitation = "The family of Percy Weasley proudly invite you to their graduation commencement on Saturday the 22nd of May 1993. Festivities will be held at The Burrow. See you then!"
 ```
 
