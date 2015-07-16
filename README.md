@@ -96,6 +96,6 @@ Use string interpoloation and the variables you just created to customize Percy'
 S-T-R-E-T-C-H Challenges!
 If you've made this far, here are some additional challenges for you to complete:
 
-1.  What of Ginny wants to put her name and day of her graduation IN ALL CAPS.  How can you do this?
+1.  What if Ginny wants to put her name and day of her graduation IN ALL CAPS.  How can you do this?
 2.  Now that her name and day are in all caps she decides she doesn't like it and only wants to capitalize the first letter.  How can you do this?
 3.  Next she doesn't want her date and day to be strings.  She wants to turn them into numbers.  Can you fix this for her?
