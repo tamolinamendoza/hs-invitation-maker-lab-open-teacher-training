@@ -1,9 +1,4 @@
----
- tags: ruby, strings, gsub, interpolation, kids
- languages: ruby
- level: 1
- type: lab
----
+
 
 ## Graduation Invitation Maker
 
