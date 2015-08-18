@@ -88,7 +88,7 @@ Now that we have Percy's information, it's time to change the value of these var
 
 Use string interpoloation and the variables you just created to customize Percy's invitation for Ginny. As in Challenge 1, you'll want to use puts to print out your solution to the screen.
 
-S-T-R-E-T-C-H Challenges!
+### S-T-R-E-T-C-H Challenges!
 If you've made this far, here are some additional challenges for you to complete:
 
 1.  What if Ginny wants to put her name and day of her graduation IN ALL CAPS.  How can you do this?
