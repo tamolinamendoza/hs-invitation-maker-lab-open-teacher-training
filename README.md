@@ -87,3 +87,10 @@ Now that you know what string interpolation is, assign the following content fro
 Now that we have Percy's information, it's time to change the value of these variables to reflect Ginny's info. Ginny plans to have her party on May 17th, 1998 (Sunday).
 
 Use string interpoloation and the variables you just created to customize Percy's invitation for Ginny. As in Challenge 1, you'll want to use puts to print out your solution to the screen.
+
+S-T-R-E-T-C-H Challenges!
+If you've made this far, here are some additional challenges for you to complete:
+
+1.  What if Ginny wants to put her name and day of her graduation IN ALL CAPS.  How can you do this?
+2.  Now that her name and day are in all caps she decides she doesn't like it and only wants to capitalize the first letter.  How can you do this?
+3.  Next she doesn't want her date and day to be strings.  She wants to turn them into numbers.  Can you fix this for her?
