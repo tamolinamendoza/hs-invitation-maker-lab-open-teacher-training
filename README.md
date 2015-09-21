@@ -13,7 +13,7 @@ The `gsub` method is a handy Ruby tool that allows you to `globally substitute` 
 We have a fact about Harry Potter assigned to a variable `wrong_fact`:
 
 ```ruby
-wrong_fact = "Harry Poter is a member of House Slytherin!"
+wrong_fact = "Harry Potter is a member of House Slytherin!"
 ```
 But wait, Harry is in Gryffindor, not Slytherin! Let's swap out the word "Slytherin" for "Gryffindor" using the gsub method. `gsub` takes two `parameters`. *The first one is the word you want to replace, and the second one is the word you want to replace it with*:
 
