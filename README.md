@@ -2,7 +2,6 @@
  tags: ruby, strings, gsub, kids
  languages: ruby
 ---
-
 # Invitation Maker
 
 Ron Weasley's graduating Hogwarts! He's got Percy Weasley's graduation invitations from a few years ago, which Percy individually wrote out before sending them via owl post. But Percy didn't use the magic of programming to automate this task. Help Ron get these invitations printed quickly so he can spend more time playing Quidditch and pranking Percy for being such a dork.
