@@ -60,6 +60,8 @@ But personally, we think the first way looks nicer and is easier for your fellow
 ### Challenge 1 (using gsub):
 Create a new Ruby file where you will code your solution. In terminal, type `touch invitation.rb`.
 
+**NOTE:** This lab does not have tests, so the learn command wont work. Instead, just write your code and test it out manually by running `ruby invitation.rb` in the command line. If the output looks like it's intended to, you're good to go and can use learn submit to submit your work!
+
 Copy the variable definition below, which is the original invitation that Percy used for his graduation, and paste it into `invitation.rb`. 
 
 ```ruby
