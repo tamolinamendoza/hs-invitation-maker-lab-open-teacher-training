@@ -58,7 +58,7 @@ puts"In Quidditch, catching the Snitch is worth " + answer + "."
 But personally, we think the first way looks nicer and is easier for your fellow programmers to read.
 
 ### Challenge 1 (using gsub):
-Create a new Ruby file where you will code your solution. In terminal, type `touch invitation.rb`.
+Open the file called `invitation.rb` in your text editor.
 
 **NOTE:** This lab does not have tests, so the learn command wont work. Instead, just write your code and test it out manually by running `ruby invitation.rb` in the command line. If the output looks like it's intended to, you're good to go and can use learn submit to submit your work!
 
@@ -68,10 +68,10 @@ Copy the variable definition below, which is the original invitation that Percy 
 percy_invitation = "The family of Percy Weasley proudly invite you to their graduation commencement on Saturday the 22nd of May 1993. Festivities will be held at The Burrow. See you then!"
 ```
 
-Ron plans to have his party on May 18th, 1997 (Sunday). In `invitation.rb` use chained gsubs to customize the invitation for Ron. Remember to use puts to output your solution to the screen.
+Ron plans to have his party on May 18th, 1997 (a Sunday). In `invitation.rb` use `.gsub`s to customize the invitation for Ron. Remember to use `puts` to output your solution to the screen.
 
 ### Challenge 2 (using string interpolation):
-It's 1998 and time for Ginny's graduation. Ron wants to help his little sis out. Instead of using gsub, let's use string interpolation to change the content of the invitation. Create a file for Ginny's invitation. In terminal, type `touch ginny_invitation.rb`. You'll code your solution in that file.
+It's 1998 and time for Ginny's graduation. Ron wants to help his little sis out. Instead of using gsub, let's use string interpolation to change the content of the invitation. In your text editor, open the file called `ginny_invitation.rb`. You'll code your solution in that file.
 
 Copy Percy's invitation into ginny_invitation.rb again.
 
