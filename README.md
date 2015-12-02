@@ -96,3 +96,5 @@ If you've made this far, here are some additional challenges for you to complete
 1.  What if Ginny wants to put her name and day of her graduation IN ALL CAPS.  How can you do this?
 2.  Now that her name and day are in all caps she decides she doesn't like it and only wants to capitalize the first letter.  How can you do this?
 3.  Next she doesn't want her date and day to be strings.  She wants to turn them into numbers.  Can you fix this for her?
+
+<a href='https://learn.co/lessons/hs-invitation-maker-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
